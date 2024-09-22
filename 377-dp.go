@@ -1,3 +1,5 @@
+package code
+
 func combinationSum4(nums []int, target int) int {
     dp := make([]int, target+1)
     dp[0] = 1

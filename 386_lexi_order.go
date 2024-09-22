@@ -1,3 +1,5 @@
+package code
+
 func lexicalOrder(n int) []int {
 	res := make([]int, n)
 	num := 1
